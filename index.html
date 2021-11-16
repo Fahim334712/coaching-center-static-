@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Evergreen</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h4 class="fw-bold">Evergreen Study Care</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class=" container">
+        <!-- section 1 -->
+        <div class="section1">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/slide-one.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Excellent Classes & Teachers</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide-two.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Teachers and Students One by One study discussion facilities</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/slide-three.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>AC Room & Best study facilities</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- section 2 -->
+        <section class="container mt-2" id="courses">
+            <h4 class="hmm head fw-bold mt-3">Available Courses Here</h4>
+            <h6 class="mx-4 no fw-bold text-success mt-3">*Academic courses(Primary,Secondary,Higher Secondary)</h6>
+            <div class="grid">
+                <div class="Border">
+                    <img class="imgSize mt-1" src="./images/p5.png" alt="">
+                    <h6 class="head mt-2">Level : <span class="fw-bold">Nursery</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">6 month</span></h6>
+                    <h6 class="head mt-2">Fee : <span class="fw-bold">$ 50</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase1" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                    <div id='buy1' class="text-success fw-bold">
+
+                    </div>
+                </div>
+                <div class="Border">
+                    <img class="imgSize mt-1 " src="./images/p1.png" alt="">
+                    <h6 class="head mt-2">Level : <span class="fw-bold">Primary</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">4 month</span></h6>
+                    <h6 class="head mt-2">Fee : <span class="fw-bold">$ 80</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase2" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                    <div id='buy2' class="text-success fw-bold">
+
+                    </div>
+                </div>
+                <div class="Border">
+                    <img class="imgSize  mt-1" src="./images/p2.png" alt="">
+                    <h6 class="head mt-2">Level : <span class="fw-bold">Junior School</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">7 month</span></h6>
+                    <h6 class="head mt-2">Fee : <span class="fw-bold">$ 120</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase3" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                    <div id='buy3' class="text-success fw-bold">
+
+                    </div>
+                </div>
+                <div class="Border">
+                    <img class="imgSize mt-1 " src="./images/p3.png" alt="">
+                    <h6 class="head mt-2">Level : <span class="fw-bold">Secondary</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">10 month</span></h6>
+                    <h6 class="head mt-2">Fee : <span class="fw-bold">$ 150</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase4" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                    <div id='buy4' class="text-success fw-bold">
+
+                    </div>
+                </div>
+                <div class="Border">
+                    <img class="imgSize  mt-1" src="./images/p4.png" alt="">
+                    <h6 class="head mt-2">Level : <span class="fw-bold">Higher Secondary</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">8 month</span></h6>
+                    <h6 class="head mt-2">Fee : <span class="fw-bold">$ 200</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase5" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                    <div id='buy5' class="text-success fw-bold">
+
+                    </div>
+                </div>
+                <div class="Border">
+                    <img class="imgSize  mt-1" src="./images/p6.png" alt="">
+                    <h6 class="head mt-2">Level : <span class="fw-bold">University</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">1 Year </span></h6>
+                    <h6 class="head mt-2">Fee : <span class="fw-bold">$ 500</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase6" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                    <div id='buy6' class="text-success fw-bold">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-3 -->
+        <section class="container mt-4 mb-2">
+            <h6 class="mx-5 no fw-bold text-success">*Skill Development Courses</h6>
+            <div class=" mt-2 grid">
+                <div class="Border">
+                    <img class="imgSizes  mt-1" src="./images/ms-word.jpg" alt="">
+                    <h6 class="head mt-2">Course : <span class="fw-bold">Microsoft-Word</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">2 month</span></h6>
+                    <h6 class="head mt-2">Price : <span class="fw-bold">$ 100</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase7" class="btn btn-primary">Purchase Now</a>
+                    </div>
+                    <div id='buy7' class="text-success fw-bold">
+
+                    </div>
+                </div>
+                <div class="Border">
+                    <img class="imgSizes mt-2 " src="./images/ms-excell.jpg" alt="">
+                    <h6 class="head mt-2">Course : <span class="fw-bold">Microsoft-Excell</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">3 month</span></h6>
+                    <h6 class="head mt-2">Price : <span class="fw-bold">$ 200</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase8" class="btn btn-success">Purchase Now</a>
+                    </div>
+                    <div id='buy8' class="text-success fw-bold">
+
+                    </div>
+                </div>
+                <div class="Border">
+                    <img class="imgSizes mt-2" src="./images/web.jpg" alt="">
+                    <h6 class="head mt-2">Course : <span class="fw-bold">Web Development</span></h6>
+                    <h6 class="head mt-2">Length : <span class="fw-bold">5 month</span></h6>
+                    <h6 class="head mt-2">Price : <span class="fw-bold">$ 500</span></h6>
+                    <div class="card-footer text-muted">
+                        <a id="purchase9" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                    <div id='buy9' class="text-success fw-bold">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 4 -->
+        <section class="container mt-4 mb-2" id="about">
+            <h4 class="hmm head fw-bold">About Us</h4>
+            <div class="aboutGrid">
+                <div>
+                    <h6 class="head mt-5 text-dark">Evergreen is Bangladesh largest ed-tech company and the creator of
+                        Bangladesh's
+                        most loved
+                        school learning app. Launched in 2015, Evergreen offers highly personalised and effective
+                        learning programs for classes 1 - 12 (K-12), and aspirants of competitive skill development like
+                        web development,Microsoft-Word,Microsoft-Excell etc. With 50 million registered students and 3.5
+                        million paid subscriptions, Evergreen has become one of the most preferred education platforms
+                        across the globe.</h6>
+                </div>
+                <div>
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./images/caro-3.jpg" class="d-block w-100 kj" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/caro-1-min.jpg" class="d-block w-100 kj" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/car-2-min.jpg" class="d-block w-100 kj" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-5 -->
+        <section class="container mt-4 mb-2" id="contact">
+            <h4 class="hmm head fw-bold">Contact</h4>
+            <div class="aboutGrid">
+                <div>
+                    <form>
+                        <p class="head">Have you any advice......!</p>
+                        <div class="mb-2">
+                            <input placeholder="Your Name" type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-2">
+                            <input placeholder="Your Advice....." type="text" class="form-control"
+                                id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="mt-3">
+
+                    <i class="fas fa-phone-square-alt head"></i> +986423309 <br />
+                    <i class="fab fa-facebook head "></i> <span>Evergreen Study Care</span><br />
+                    <i class="fab fa-youtube"> </i> <span>Evergreen Edu </span><br />
+                    <i class="fas fa-map-marker-alt"></i> <span>second
+                        Floor,texsas tower,Dc.Road,Chawkbazar,Chittagong</span>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="mt-3 hey pb-3">
+        <div class="aboutGrid container">
+            <div class="yes mt-2">
+                <i class="far fa-hand-point-right"></i> <a href="#" class="text-white">Home</a><br />
+                <i class="far fa-hand-point-right"></i> <a href="#courses" class="text-white">courses</a><br />
+                <i class="far fa-hand-point-right"></i> <a href="#about" class="text-white">About</a><br />
+                <i class="far fa-hand-point-right"></i> <a href="#contact" class="text-white">contact</a><br />
+            </div>
+            <div class="mt-2">
+                <h5 class="text-white">Follow our social activies</h5>
+                <i class="fab fa-twitter mx-2"></i><i class="fab fa-linkedin-in mx-2"></i><i
+                    class="fab fa-whatsapp mx-2"></i><i class="fab fa-snapchat-ghost mx-2"></i>
+            </div>
+        </div>
+        <p class="text-white">copyright © Fahim all rights reserved</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="style.js"></script>
+</body>
+
+</html>
